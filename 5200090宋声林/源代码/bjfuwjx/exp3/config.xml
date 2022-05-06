@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<class>
+    <bg>
+        <col>255,255,255</col>
+        <xRange>-0.1, 1.1</xRange>
+        <yRange>-0.1, 1.1</yRange>
+    </bg>
+
+    <shape>
+        <col>180,180,180</col>
+        <wid>1</wid>
+        <type>oval</type>
+        <!-- type includes oval & rect -->
+        <pad>true</pad>
+        <center>0.6, 0.8</center>
+        <width>0.3</width>
+        <height>0.2</height>
+    </shape>
+
+    <shape>
+        <col>180,180,180</col>
+        <wid>5</wid>
+        <type>rect</type>
+        <!-- type includes oval & rect -->
+        <pad>false</pad>
+        <center>0.3, 0.4</center>
+        <width>0.3</width>
+        <height>0.2</height>
+    </shape>
+
+    <scale>
+        <col>black</col>
+        <wid>1</wid>
+        <direction>x</direction>
+        <pos>0.0</pos>
+        <from>0</from>
+        <step>0.1</step>
+        <amount>10</amount>
+        <precision>1</precision>
+    </scale>
+
+    <scale>
+        <col>black</col>
+        <wid>1</wid>
+        <direction>y</direction>
+        <pos>0</pos>
+        <from>0</from>
+        <step>0.1</step>
+        <amount>10</amount>
+        <precision>1</precision>
+    </scale>
+</class>
